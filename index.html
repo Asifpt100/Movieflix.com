@@ -1,0 +1,785 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <div class="hamburger-menu">
+          <div class="new-hamburger-icon"></div>
+        </div>
+        <h1 class="logo">Movieflix</h1>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="new.html">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">New & Popular</a></li>
+          <li class="dropdown">
+            <a href="#" class="nav-link">My List</a>
+            <div class="dropdown-content">
+              <a href="#">Item 1</a>
+              <a href="#">Item 2</a>
+              <a href="#">Item 3</a>
+            </div>
+          </li>
+        </ul>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            
+            <div class="close-icon">
+              <img src="asset/icons/icons8-close-32.png" alt="Close Icon">
+            </div>
+            
+          </div>
+         
+          <div class="search-icon">
+            <img src="asset/icons/icons8-search-30.png" alt="Search Icon">
+          </div>
+          <div class="bell">
+            <img src="asset/icons/bell-icon.svg" alt="User Icon">
+          </div>
+          <div class="user-icon">
+            <img src="asset/icons/icons8-male-user-96(1).png" alt="User Icon">
+          </div>
+      </div>
+     
+
+      <div class="sidebar">
+        <img class="close-sidebar" src="asset/icons/icons8-close-32.png" alt=""> 
+        <ul class="menu2">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">New & Popular</a></li>
+          <li><a href="#">My List</a></li>
+        </ul>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+        </ul>
+        <p class="copywrite">&copy; <span>2023</span>  All rights reserved <span>Movieflix</span></p>
+        <P class="my-y">Created by <span>Asif.Muhammed </span> website</P>
+      </div>
+
+
+
+    </nav>
+  </header>
+
+
+  <div class="slideshow">
+    <div class="slide active">
+      <img src="https://images.hdqwalls.com/download/black-panther-4k-movie-poster-2018-7t-1366x768.jpg" alt="Movie Image 1">
+      <div class="overlay"></div>
+      <img src="quality-icon.png" alt="Quality Icon" class="quality-icon">
+      <div class="banner-details">
+        <h1 class="movie-title">Movie Title 1</h1>
+        <div class="movie-info">
+          <span class="category"><i class="fas fa-film"></i> Action</span>
+          <span class="duration"><i class="fas fa-clock"></i> 2h 30m</span>
+          <span class="rating2"><i class="fas fa-star"></i>4.5</span>
+        </div>
+        <p class="movie-description">Movie description goes here 2.</p>
+        <button class="watch-button"><i class="fas fa-play"></i> Watch Now</button>
+        <button class="watch-later-button"><i class="far fa-clock"></i> Watch Later</button>
+        
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="https://wallpapercave.com/wp/wp8218900.jpg" alt="Movie Image 2">
+      <div class="overlay"></div>
+      <img src="quality-icon.png" alt="Quality Icon" class="quality-icon">
+      <div class="banner-details">
+        <h1 class="movie-title">Movie Title 2</h1>
+        <div class="movie-info">
+          <span class="category"><i class="fas fa-film"></i> Drama</span>
+          <span class="duration"><i class="fas fa-clock"></i> 1h 45m</span>
+          <span class="rating2"><i class="fas fa-star"></i>4.5</span>
+        </div>
+        <p class="movie-description">Movie description goes here 2.</p>
+        <button class="watch-button"><i class="fas fa-play"></i> Watch Now</button>
+        <button class="watch-later-button"><i class="far fa-clock"></i> Watch Later</button>
+      </div>
+    </div>
+
+
+    <div class="slide">
+      <img src="https://assets.aboutamazon.com/96/e7/5468a2134ab6ba6b0b04d014c102/image1.jpg" alt="Movie Image 2">
+      <div class="overlay"></div>
+      <img src="quality-icon.png" alt="Quality Icon" class="quality-icon">
+      <div class="banner-details">
+        <h1 class="movie-title">Movie Title 3</h1>
+        <div class="movie-info">
+          <span class="category"><i class="fas fa-film"></i> Drama</span>
+          <span class="duration"><i class="fas fa-clock"></i> 1h 45m</span>
+          <span class="rating2"><i class="fas fa-star"></i>4.5</span>
+        </div>
+        <p class="movie-description">Movie description goes here 2.</p>
+        <button class="watch-button"><i class="fas fa-play"></i> Watch Now</button>
+        <button class="watch-later-button"><i class="far fa-clock"></i> Watch Later</button>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="https://images8.alphacoders.com/121/1218962.jpg" alt="Movie Image 2">
+      <div class="overlay"></div>
+      <img src="quality-icon.png" alt="Quality Icon" class="quality-icon">
+      <div class="banner-details">
+        <h1 class="movie-title">Movie Title 4</h1>
+        <div class="movie-info">
+          <span class="category"><i class="fas fa-film"></i> Drama</span>
+          <span class="duration"><i class="fas fa-clock"></i> 1h 45m</span>
+          <span class="rating2"><i class="fas fa-star"></i>4.5</span>
+        </div>
+        <p class="movie-description">Movie description goes here 2.</p>
+        <button class="watch-button"><i class="fas fa-play"></i> Watch Now</button>
+        <button class="watch-later-button"><i class="far fa-clock"></i> Watch Later</button>
+      </div>
+    </div>
+
+
+    <div class="slide">
+      <img src="https://wallpapercave.com/wp/wp8218900.jpg" alt="Movie Image 2">
+      <div class="overlay"></div>
+      <img src="quality-icon.png" alt="Quality Icon" class="quality-icon">
+      <div class="banner-details">
+        <h1 class="movie-title">Movie Title 5</h1>
+        <div class="movie-info">
+          <span class="category"><i class="fas fa-film"></i> Drama</span>
+          <span class="duration"><i class="fas fa-clock"></i> 1h 45m</span>
+          <span class="rating2"><i class="fas fa-star"></i>4.5</span>
+        </div>
+        <p class="movie-description">Movie description goes here 2.</p>
+        <button class="watch-button"><i class="fas fa-play"></i> Watch Now</button>
+        <button class="watch-later-button"><i class="far fa-clock"></i> Watch Later</button>
+      </div>
+    </div>
+    
+    
+    
+    <!-- Add more slides as needed -->
+  </div>
+
+  <div class="indicators"></div>
+  
+  <!-- ... -->
+<div class="popup">
+  <div class="popup-content">
+    <h2>Added to Watch Later</h2>
+    <p>You can access this movie in your Watch Later list.</p>
+    <button class="popup-close">Close</button>
+  </div>
+</div>
+<!-- ... -->
+
+
+
+
+
+
+  <div class="section-title">
+    <h2>Popular Movies</h2>
+  </div>
+  <div class="container">
+    <div class="card-container">
+      <a href=""><img src="https://pbs.twimg.com/media/FfWgmp0agAAZ7Bx?format=jpg&name=large" alt="Movie Poster"></a>
+      <div class="card-details">
+        <h3>Movie Title 1</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+       
+      </div>
+    </div>
+    <div class="card-container">
+      <img src="https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Drama . Sci-feic .Comdey </p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+
+
+
+    <div class="card-container">
+      <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00357072-ghlkvxmcjy-portrait.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Horror - Romantic.</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img  src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src="https://bingeddata.s3.amazonaws.com/uploads/2023/04/Citadel_Series_Review.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/icons8-hd-96.png" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src="https://pbs.twimg.com/media/FfWgmp0agAAZ7Bx?format=jpg&name=large" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/icons8-hd-96.png" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src=" https://bingeddata.s3.amazonaws.com/uploads/2023/04/Citadel_Series_Review.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+    <!-- Add more card-container elements as needed -->
+  </div>
+
+
+
+
+
+
+
+
+  <div class="section-title">
+    <h2>Popular Movies</h2>
+  </div>
+  <div class="container">
+    <div class="card-container">
+      <img src="https://pbs.twimg.com/media/FfWgmp0agAAZ7Bx?format=jpg&name=large" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 1</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+       
+      </div>
+    </div>
+    <div class="card-container">
+      <img src="https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Drama . Sci-feic .Comdey </p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+
+
+
+    <div class="card-container">
+      <img src="https://www.thevillagesentertainment.com/wp-content/uploads/2023/05/spiderman-poster.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Horror - Romantic.</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img  src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src="https://bingeddata.s3.amazonaws.com/uploads/2023/04/Citadel_Series_Review.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/icons8-hd-96.png" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src="https://pbs.twimg.com/media/FfWgmp0agAAZ7Bx?format=jpg&name=large" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/icons8-hd-96.png" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src=" https://bingeddata.s3.amazonaws.com/uploads/2023/04/Citadel_Series_Review.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+    <!-- Add more card-container elements as needed -->
+  </div>
+
+
+
+
+
+
+
+  <div class="section-title">
+    <h2>Popular Movies</h2>
+  </div>
+  <div class="container">
+    <div class="card-container">
+      <img src="https://pbs.twimg.com/media/FfWgmp0agAAZ7Bx?format=jpg&name=large" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 1</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+       
+      </div>
+    </div>
+    <div class="card-container">
+      <img src="https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Drama . Sci-feic .Comdey </p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+
+
+
+    <div class="card-container">
+      <img src="https://www.thevillagesentertainment.com/wp-content/uploads/2023/05/spiderman-poster.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Horror - Romantic.</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img  src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src="https://bingeddata.s3.amazonaws.com/uploads/2023/04/Citadel_Series_Review.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/icons8-hd-96.png" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src="https://thandoratimes.com/flcimgs/news-images/exclusive-this-is-when-vijays-master-trailer-releasing.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/icons8-hd-96.png" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src=" https://bingeddata.s3.amazonaws.com/uploads/2023/04/Citadel_Series_Review.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+    <!-- Add more card-container elements as needed -->
+  </div>
+
+
+
+  <section id="subscribe-section">
+    <h2 class="sub3">Subscribe to our Newsletter</h2>
+    <form id="subscribe-form">
+      <input type="email" id="email-input" placeholder="Enter your email address" required>
+      <button type="submit" id="subscribe-button">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Netflix-style modal -->
+  <div id="success-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Submit successful!</p>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="section-title">
+    <h2>suggested for you</h2>
+  </div>
+  <div class="container">
+    <div class="card-container">
+      <img src="https://pbs.twimg.com/media/FfWgmp0agAAZ7Bx?format=jpg&name=large" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 1</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+       
+      </div>
+    </div>
+    <div class="card-container">
+      <img src="https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Drama . Sci-feic .Comdey </p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+
+
+
+    <div class="card-container">
+      <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00357072-ghlkvxmcjy-portrait.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Horror - Romantic.</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img  src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src="https://bingeddata.s3.amazonaws.com/uploads/2023/04/Citadel_Series_Review.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/icons8-hd-96.png" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src="https://pbs.twimg.com/media/FfWgmp0agAAZ7Bx?format=jpg&name=large" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/icons8-hd-96.png" alt="4K Icon">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <img src=" https://bingeddata.s3.amazonaws.com/uploads/2023/04/Citadel_Series_Review.jpg" alt="Movie Poster">
+      <div class="card-details">
+        <h3>Movie Title 2</h3>
+        <p class="movie-date"><i class="far fa-calendar-alt"></i> Release Date:  2023</p>
+        <p class="movie-category"><i class="fas fa-film"></i> Movie Category</p>
+        <p class="movie-time"><i class="far fa-clock"></i> Duration: 2h 30m</p>
+        <div class="rating">
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+          <span>&#9733;</span>
+        </div>
+      </div>
+      <div class="quality-icons">
+        <img src="asset/icons/4k-label-color-icon.svg" alt="4K Icon">
+      </div>
+    </div>
+    <!-- Add more card-container elements as needed -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <div class="container2">
+    <div class="footer-content">
+      <h1 class="logo3">Movieflix</h1>
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">New Releases</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Netflix</p>
+      <p>123 Main Street, City, Country</p>
+      <p>Email: info@netflix.com</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+   
+    
+  <!-- Rest of the code -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
